@@ -37,8 +37,8 @@
     }
   },
   "dependencies": {
-    "playwright": "1.57.0-alpha-2025-10-24",
-    "playwright-core": "1.57.0-alpha-2025-10-24"
+    "playwright": "file:../playwright-mod/packages/playwright",
+    "playwright-core": "file:../playwright-mod/packages/playwright-core"
   },
   "bin": {
     "mcp-server-playwright": "cli.js"
